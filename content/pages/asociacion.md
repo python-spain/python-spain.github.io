@@ -21,6 +21,60 @@ Calle La Botánica, 4, 1º
 28028, Madrid, España
 ```
 
+
+## ¿En qué nos hemos gastado el dinero?
+
+Cuentas de cierre del ejercicio fiscal 2020.
+
+#### Resumen
+
+| Concepto | Cantidad     |
+|----------|--------------|
+| Ingresos | + 5.696,94 € |
+| Gastos   | - 3.490,03 € |
+| Balance  | + 2.206,91 € |
+
+
+#### Ingresos
+
+| Concepto                  |       Cantidad |
+|---------------------------|----------------|
+| Cuotas de socias y socios |   + 2.015,39 € |
+| Donación FreeWear.org     |       + 8,26 € |
+| Django Girls Mallorca     |   + 2.068,00 € |
+| PyCampES (cancelado)      |   + 1.605,29 € |
+
+
+#### Gastos
+
+| Concepto                               |     Cantidad |
+|----------------------------------------|--------------|
+| Cuotas de asesoría                     | - 1.016,40 € |
+| Seguro de responsabilidad civil        |   - 239,09 € |
+| Mailjet                                |    - 39,75 € |
+| Servidores Scaleway                    |   - 301,83 € |
+| Streamyard                             |    - 62,98 € |
+| Gestión cambio de Junta Directiva      |   - 174,36 € |
+| Comisiones bancarias                   |   - 139,42 € |
+| Trimestrales (MOD. 202)                | - 1.580,03 € |
+
+
+## ¿En qué nos gastaremos el dinero?
+
+Previsiones para 2021.
+
+| Concepto                        |     Cantidad |
+|---------------------------------|--------------|
+| Cuotas de socias y socios*      | + 2.251,00 € |
+| Cuotas de asesoría              | - 1.016,40 € |
+| Seguro de responsabilidad civil |   - 239,09 € |
+| Comisiones bancarias            |    -120,00 € |
+| Mailjet                         |    - 95,40 € |
+| Servidores Scaleway             |  - 360,00  € |
+| Streamyard                      |   - 240,00 € |
+| **Balance**                     |   + 181,00 € |
+
+
 ## Junta directiva
 
 Actualmente la **junta directiva de Python España** (2020-2022) está formada por:

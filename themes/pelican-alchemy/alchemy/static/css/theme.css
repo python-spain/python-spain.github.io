@@ -201,3 +201,8 @@ th, td {
 li p {
   margin-bottom: 0px;
 }
+
+
+th:last-child, td:last-child {
+    text-align: right
+}
