@@ -1,0 +1,224 @@
+::selection {
+  background: #0085a1;
+  color: #fff;
+  text-shadow: none;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+a {
+  color: #333;
+}
+
+a:focus,
+a:hover {
+  color: #0085a1;
+}
+
+blockquote {
+  color: #818a91;
+  font-style: italic;
+}
+
+hr {
+  margin: 1.5rem 0;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.container {
+  max-width: 960px;
+}
+
+.header,
+.footer {
+  padding: 1.5rem 0 .5rem;
+}
+
+.header {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.header img {
+  margin-bottom: 1rem;
+}
+
+.header .title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.header ul,
+.header li {
+  margin-bottom: .5rem;
+}
+
+.header ul {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
+.main {
+  background-color: #fff;
+  padding: 1.5rem 0;
+}
+
+.footer {
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.highlight pre {
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+}
+
+.pagination .page-link {
+  color: #333;
+}
+
+.teaser header ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.teaser header li {
+  margin-bottom: .5rem;
+}
+
+.teaser .content p {
+  margin-bottom: 0;
+}
+
+.article header ul,
+.article header li {
+  margin-bottom: .5rem;
+}
+
+.article header li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.article .content a {
+  text-decoration: underline
+}
+
+@media (min-width: 576px) {
+  .header .title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header,
+  .footer {
+    text-align: center;
+  }
+
+  .teaser header li {
+    display: inline-block;
+  }
+
+  .teaser header li:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+/* ------------------------------------------------------------------------- */
+/* Python España Customizations                                              */
+/* ------------------------------------------------------------------------- */
+
+article .content .h2,article .content h2{ font-size: 2rem; }
+article .content .h3,article .content h3{ font-size: 1.5rem }
+article .content .h4,article .content h4{ font-size: 1.25rem }
+article .content .h5,article .content h5{ font-size: 1rem }
+article .content .h6,article .content h6{ font-size: .75rem }
+
+article .content .h3,article .content h3,
+article .content .h4,article .content h4,
+article .content .h5,article .content h5,
+article .content .h6,article .content h6{
+  padding-left: .75rem
+}
+
+article .content blockquote{
+  margin-left: .5rem;
+  margin-top: 2rem;
+  border-left: 4px solid lightgray;
+  padding-left: 1.5rem;
+}
+
+table {
+  margin: 10px 0;
+  width: 80%;
+}
+
+th, td {
+  padding: 3px 0;
+}
+
+.discord {
+  margin-bottom: 10px;
+}
+
+.discord button {
+  width: 100%;
+  justify-content: center;
+}
+
+.discord .btn-primary,
+.discord .btn-primary:active,
+.discord .btn-primary:visited,
+.discord .btn-primary:focus {
+  background-color: #7289da;
+  border-color: #7289da;
+}
+.discord .btn-primary:hover {
+  background-color: #859bee;
+  border-color: #859bee;
+}
+
+.discord a {
+  text-decoration: none;
+}
+
+.valign {
+  display: flex;
+  align-items: center;
+}
+
+.valign span {
+  margin-left: 10px;
+}
+
+.size-h4 {
+  font-size: 1.2em;
+}
+
+/* listas anidadas sin espacios horizontales raros */
+li p {
+  margin-bottom: 0px;
+}
+
+/* Elementos para el menu de la cabecera */
+.topnav {
+  display: flex;
+  background-color: #6c6c6c;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav a:hover, .topnav a.active {
+  background-color: rgba(255, 204, 18, 0.9);
+  color: black;
+}
